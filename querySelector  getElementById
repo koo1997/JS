@@ -1,0 +1,11 @@
+querySelector  getElementById 차이
+정확함             빠름
+#
+
+,getElementsByClassName은 HTMLCollection에 리턴이 되고 querySelectorAll은 NodeList에 리턴이 된다.
+
+💘 그럼 여기서 HTMLcollection은 뭐고 NodeList는 무엇인가??
+우선, 간단하게 설명해보면 둘 다 배열과 같이 각 항목을 접근하기 위한 인덱스를 제공한다고 한다. HTMLCollection의 항목은 name, id 속성으로도 접근이 가능하지만, NodeList의 항목은 인덱스 번호로만 접근이 가능하다.
+
+마지막 결론
+만약 더 구체적인 엘리먼트를 선택하고 싶다면, querySelector그리고 querySelectorAll을 사용해보자!
